@@ -13,10 +13,10 @@ hero:
     #   link: /api-examples
     - theme: brand
       text: Mulai
-      link: /pendahuluan/
+      link: /docs/akred/klinik/pendahuluan/
     - theme: alt
       text: Referensi
-      link: /pendahuluan/referensi
+      link: /docs/akred/klinik/pendahuluan/referensi
 
 features:
   - title: Tata Kelola 
