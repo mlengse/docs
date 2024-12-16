@@ -1,7 +1,7 @@
 ---
 title: "Referensi"
-outline: deep
-
+sidebar:
+  order: 1
 ---
 
 # Referensi

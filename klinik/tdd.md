@@ -1,5 +1,7 @@
 ---
 title: TDD
+sidebar:
+  order: 2
 ---
 
 # Standar dan Elemen Penilaian yang Tidak Dapat Diterapkan (TDD)
