@@ -1,38 +1,36 @@
 ---
 title: Instrumen
-navigation: false
-layout: page
-description: 'Instrumen Penilaian Akreditasi Puskesmas tahun 2023. Referensi : (1) KMK No. HK.01.07/MENKES/165/2023 Tentang Standar Akreditasi Pusat Kesehatan Masyarakat; (2) Kepdirjen No. HK.02.02/D/487/2023 Tentang Instrumen Survei Akreditasi Pusat Kesehatan Masyarakat'
+# navigation: false
+# layout: page
+# description: 'Instrumen Penilaian Akreditasi Puskesmas tahun 2023. Referensi : (1) KMK No. HK.01.07/MENKES/165/2023 Tentang Standar Akreditasi Pusat Kesehatan Masyarakat; (2) Kepdirjen No. HK.02.02/D/487/2023 Tentang Instrumen Survei Akreditasi Pusat Kesehatan Masyarakat'
 
 ---
 
-::block-hero
----
-cta: 
-  - Mulai
-  - /1
----
-#title 
-Instrumen Penilaian Akreditasi Puskesmas tahun 2023
-#description 
-Referensi :
-#extra 
-::List{type='success'}
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+#### Instrumen Penilaian Akreditasi Puskesmas tahun 2023
+
+#### Referensi :
 - KMK No. HK.01.07/MENKES/165/2023 Tentang Standar Akreditasi Pusat Kesehatan Masyarakat 
 - Kepdirjen No. HK.02.02/D/487/2023 Tentang Instrumen Survei Akreditasi Pusat Kesehatan Masyarakat
-::
-#support
-::code-group{data-pagefind-ignore}
-```js [Nilai]
-Total = 3270
-```
-```js [Bab]
-Bab 1 = 1020
-Bab 2 = 930
-Bab 3 = 420 
-Bab 4 = 340 
-Bab 5 = 560 
-```
+
+
+<Tabs>
+  <TabItem label="NIlai">
+    ```js
+    Total = 3270
+    ```
+  </TabItem>
+  <TabItem label="Bab">
+    ```js [Bab]
+    Bab 1 = 1020
+    Bab 2 = 930
+    Bab 3 = 420 
+    Bab 4 = 340 
+    Bab 5 = 560 
+    ```
+  </TabItem>
+  <TabItem label="Standar">
 ```js [Standar]
 1.1 = 110
 1.2 = 160
@@ -69,7 +67,9 @@ Bab 5 = 560
 5.3 = 140
 5.4 = 50
 5.5 = 130
-```
+```  
+</TabItem>
+<TabItem label="Kriteria">
 ```js [Kriteria]
 1.1.1 = 70
 1.1.2 = 40
@@ -154,8 +154,9 @@ Bab 5 = 560
 5.5.5 = 20
 5.5.6 = 20
 ```
-::
-::
+</TabItem>
+</Tabs>
+
 ::card-grid
 #title
 Kelompok standar
