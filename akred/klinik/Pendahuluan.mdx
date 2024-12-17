@@ -4,15 +4,17 @@ sidebar:
   order: 0
 ---
 
-{%tabs%}
-{%tabitem label="Nilai"%}
-```js
-TKK = 190
-PMKP = 180 
-PKP = 670
-```
-{%/tabitem%}
-{%tabitem label="Standar"%}
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+<Tabs>
+<TabItem label="Nilai">
+    ```js
+    TKK = 190
+    PMKP = 180 
+    PKP = 670
+    ```
+</TabItem>
+<TabItem label="Standar">
 ```ts
 TKK 1 = 30
 TKK 2 = 30
@@ -38,8 +40,8 @@ PKP 14 = 20
 PKP 15 = 130
 
 ```
-{%/tabitem%}
-{%/tabs%}
+</TabItem>
+</Tabs>
 
 
 ## Latar Belakang 
@@ -103,7 +105,7 @@ Dalam hal memenuhi standar akreditasi klinik yang meliputi penilaian terhadap el
 Standar Akreditasi Klinik dikelompokkan menurut fungsi-fungsi penting yang umum dalam organisasi klinik. Standar dikelompokkan menurut fungsi yang terkait dengan penyediaan pelayanan bagi pasien (*good clinical governance*) dan upaya menciptakan organisasi klinik yang aman, efektif, dan dikelola dengan baik (*good corporate governance*). 
 Standar Akreditasi klinik terdiri atas 3 (tiga) Bab meliputi: 
 
-### Bab I. [Tata Kelola Klinik (TKK)](/docs/akred/klinik/tkk/)  
+### Bab I. [Tata Kelola Klinik (TKK)](/docs/akred/klinik/tkk)  
 - Standar 1.1  :  [Pengorganisasian Klinik (TKK 1)](/docs/akred/klinik/tkk/1) 
 - Standar 1.2  :  [Tata Kelola Sumber Daya Manusia (TKK 2)](/docs/akred/klinik/tkk/2) 
 - Standar 1.3  :  [Tata Kelola Fasilitas dan Keselamatan (TKK 3)](/docs/akred/klinik/tkk/3)  
